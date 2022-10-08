@@ -1,0 +1,36 @@
+.footer {
+    background-color: #242424;
+    color: white;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer__toTop {
+    border-bottom: 4px solid whitesmoke;
+}
+
+.footer__list {
+    padding: 16px 16px;
+    align-items: center;
+}
+
+.footer__list > a {
+    padding: 12px;
+}
+
+.footer__copyright {
+    width: 100%;
+    align-items: center;
+    padding-left: 80px;
+    font-size: 12px;
+}
+
+
+
+
+  
+  

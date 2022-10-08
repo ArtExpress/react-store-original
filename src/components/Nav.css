@@ -1,0 +1,51 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    z-index: 100;
+    width: 100%;
+    top: 0;
+    background-color: white;
+}
+
+.nav__icon {
+    object-fit: contain;
+    height: 90px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.nav__center {
+    max-width: fit-content;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    padding: 18px;
+    height: 38px;
+    border: 1px solid lightgray;
+    border-radius: 8px;
+}
+
+.nav__center > input {
+    border: none;
+    width: 250px;
+    outline-width: 0;
+}
+
+.nav__right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 24vw;
+    margin-right: 44px;
+}
+
+.nav__right > p {
+    padding: 0 4px;
+}
+
+.nav__cart {
+    padding-left: 16px;
+}
+

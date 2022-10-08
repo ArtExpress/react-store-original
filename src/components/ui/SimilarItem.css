@@ -1,0 +1,41 @@
+.similarItem {
+    border: 4px solid whitesmoke;
+    margin: 4px;
+    background-color: white;
+    border-radius: 8px;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.similarItem > img {
+    width: 160px;
+    height: 160px;
+    padding: 8px;
+    object-fit: contain;
+}
+
+.similarItem > h2 {
+    font-size: 24px;
+    padding: 8px 0px 8px 8px;
+}
+
+.rating {
+    padding-left: 8px;
+}
+
+.rating > p {
+    bottom: -80px;
+    position: absolute;
+}
+
+.rating > h3 {
+    padding-top: 12px;
+    font-size: 20px;
+}
+
+.blue {
+    color: blue;
+    font-size: 12px;
+    cursor: pointer;
+}
